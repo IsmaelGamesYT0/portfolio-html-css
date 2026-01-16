@@ -1,6 +1,6 @@
 # Meu Portfólio de HTML + CSS
 
-Este repositório contém o portfólio de desenvolvimento web do Mael, feito com **HTML e CSS**, open-source e gratuito para estudo ou referência.
+Este repositório contém o meu portfólio de desenvolvimento web, open-source e gratuito para estudo ou referência.
 
 ## Tecnologias utilizadas
 - HTML5
@@ -19,7 +19,7 @@ portfolio-html-css/
 ## Como usar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/portfolio-html-css.git]
+git clone https://github.com/seu-usuario/portfolio-html-css.git
 ```
 
 2. Abra o index.html no navegador.
