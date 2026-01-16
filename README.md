@@ -1,4 +1,4 @@
-# Portfólio HTML + CSS do Mael
+# Meu Portfólio de HTML + CSS
 
 Este repositório contém o portfólio de desenvolvimento web do Mael, feito com **HTML e CSS**, open-source e gratuito para estudo ou referência.
 
