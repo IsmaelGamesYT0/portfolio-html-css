@@ -9,10 +9,9 @@ Este repositório contém o meu portfólio de desenvolvimento web, open-source e
 ## Estrutura do projeto
 portfolio-html-css/
 │
-├── index.html
-├── css/
-│ └── style.css
-├── images/
+├── Example Project
+├── Exercícios/ex001
+├── Prática
 └── README.md
 
 
