@@ -18,7 +18,7 @@ portfolio-html-css/
 ## Como usar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/portfolio-html-css.git
+git clone https://github.com/IsmaelGamesYT0/Portfolio-HTML-CSS.git
 ```
 
 2. Abra o index.html no navegador.
