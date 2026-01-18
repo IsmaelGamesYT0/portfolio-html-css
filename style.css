@@ -1,24 +1,22 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Variáveis (fica chique 😎) */
 :root {
-    --bg: #0f172a;
-    --card: #111827;
-    --primary: #38bdf8;
-    --text: #e5e7eb;
-    --muted: #9ca3af;
-    --radius: 12px;
+    --bg: #f5f7fa;
+    --card: #ffffff;
+    --primary: #2563eb;
+    --text: #1f2933;
+    --muted: #6b7280;
+    --radius: 10px;
 }
 
-/* Body */
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: linear-gradient(135deg, #020617, #0f172a);
+    background-color: var(--bg);
     color: var(--text);
     line-height: 1.6;
     padding: 40px 20px;
@@ -27,11 +25,11 @@ body {
 /* Header */
 header {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     color: var(--primary);
     margin-bottom: 10px;
 }
@@ -41,32 +39,31 @@ header p {
     color: var(--muted);
 }
 
-/* Seção projetos */
+/* Projetos */
 #projetos {
     max-width: 900px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
 }
 
-/* Card de projeto */
 .projeto {
-    background: var(--card);
-    padding: 24px;
+    background-color: var(--card);
+    padding: 22px;
     border-radius: var(--radius);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .projeto:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .projeto h3 {
+    margin-bottom: 8px;
     color: var(--primary);
-    margin-bottom: 10px;
 }
 
 .projeto p {
@@ -77,7 +74,7 @@ header p {
 /* Footer */
 footer {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 70px;
     color: var(--muted);
     font-size: 0.9rem;
 }
