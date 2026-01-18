@@ -5,42 +5,79 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
+/* Variáveis (fica chique 😎) */
+:root {
+    --bg: #0f172a;
+    --card: #111827;
+    --primary: #38bdf8;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --radius: 12px;
 }
 
+/* Body */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* Header */
 header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 header h1 {
-    color: #2c3e50;
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: var(--muted);
 }
 
-section#projetos {
-    max-width: 800px;
+/* Seção projetos */
+#projetos {
+    max-width: 900px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
 }
 
+/* Card de projeto */
 .projeto {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: var(--card);
+    padding: 24px;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.projeto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+.projeto h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    margin-top: 40px;
-    color: #777;
+    margin-top: 80px;
+    color: var(--muted);
+    font-size: 0.9rem;
 }
