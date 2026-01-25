@@ -41,12 +41,12 @@ ou acesse via GitHub Pages, se disponível.
 
 3. Explore as pastas em demos/ para ver os desafios, exercícios e práticas.
 
-### Contribuição
+## Contribuição
 
 Sugestões, melhorias ou correções são bem-vindas.
 Consulte as diretrizes em [CONTRIBUTING.md](CONTRIBUTING.md)
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a MIT License.
 Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
